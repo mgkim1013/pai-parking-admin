@@ -49,112 +49,112 @@ const sidebarStyle = theme => ({
     color: theme.palette.common.white,
   },
   purple: {
-    backgroundColor: theme.palette.primary.main,
+    backgroundColor: theme.palette.purple.main,
     boxShadow:
       '0 12px 20px -10px rgba(' +
-      theme.hexToRgb(theme.palette.primary.main) +
+      theme.hexToRgb(theme.palette.purple.main) +
       ',.28), 0 4px 20px 0 rgba(' +
       theme.hexToRgb(theme.palette.common.black) +
       ',.12), 0 7px 8px -5px rgba(' +
-      theme.hexToRgb(theme.palette.primary.main) +
+      theme.hexToRgb(theme.palette.purple.main) +
       ',.2)',
     '&:hover,&:focus': {
-      backgroundColor: theme.palette.primary.main,
+      backgroundColor: theme.palette.purple.main,
       boxShadow:
         '0 12px 20px -10px rgba(' +
-        theme.hexToRgb(theme.palette.primary.main) +
+        theme.hexToRgb(theme.palette.purple.main) +
         ',.28), 0 4px 20px 0 rgba(' +
         theme.hexToRgb(theme.palette.common.black) +
         ',.12), 0 7px 8px -5px rgba(' +
-        theme.hexToRgb(theme.palette.primary.main) +
+        theme.hexToRgb(theme.palette.purple.main) +
         ',.2)',
     },
   },
   blue: {
-    backgroundColor: theme.palette.info.main,
+    backgroundColor: theme.palette.blue.main,
     boxShadow:
       '0 12px 20px -10px rgba(' +
-      theme.hexToRgb(theme.palette.info.main) +
+      theme.hexToRgb(theme.palette.blue.main) +
       ',.28), 0 4px 20px 0 rgba(' +
       theme.hexToRgb(theme.palette.common.black) +
       ',.12), 0 7px 8px -5px rgba(' +
-      theme.hexToRgb(theme.palette.info.main) +
+      theme.hexToRgb(theme.palette.blue.main) +
       ',.2)',
     '&:hover,&:focus': {
-      backgroundColor: theme.palette.info.main,
+      backgroundColor: theme.palette.blue.main,
       boxShadow:
         '0 12px 20px -10px rgba(' +
-        theme.hexToRgb(theme.palette.info.main) +
+        theme.hexToRgb(theme.palette.blue.main) +
         ',.28), 0 4px 20px 0 rgba(' +
         theme.hexToRgb(theme.palette.common.black) +
         ',.12), 0 7px 8px -5px rgba(' +
-        theme.hexToRgb(theme.palette.info.main) +
+        theme.hexToRgb(theme.palette.blue.main) +
         ',.2)',
     },
   },
   green: {
-    backgroundColor: theme.palette.success.main,
+    backgroundColor: theme.palette.green.main,
     boxShadow:
       '0 12px 20px -10px rgba(' +
-      theme.hexToRgb(theme.palette.success.main) +
+      theme.hexToRgb(theme.palette.green.main) +
       ',.28), 0 4px 20px 0 rgba(' +
       theme.hexToRgb(theme.palette.common.black) +
       ',.12), 0 7px 8px -5px rgba(' +
-      theme.hexToRgb(theme.palette.success.main) +
+      theme.hexToRgb(theme.palette.green.main) +
       ',.2)',
     '&:hover,&:focus': {
-      backgroundColor: theme.palette.success.main,
+      backgroundColor: theme.palette.green.main,
       boxShadow:
         '0 12px 20px -10px rgba(' +
-        theme.hexToRgb(theme.palette.success.main) +
+        theme.hexToRgb(theme.palette.green.main) +
         ',.28), 0 4px 20px 0 rgba(' +
         theme.hexToRgb(theme.palette.common.black) +
         ',.12), 0 7px 8px -5px rgba(' +
-        theme.hexToRgb(theme.palette.success.main) +
+        theme.hexToRgb(theme.palette.green.main) +
         ',.2)',
     },
   },
   orange: {
-    backgroundColor: theme.palette.warning.main,
+    backgroundColor: theme.palette.orange.main,
     boxShadow:
       '0 12px 20px -10px rgba(' +
-      theme.hexToRgb(theme.palette.warning.main) +
+      theme.hexToRgb(theme.palette.orange.main) +
       ',.28), 0 4px 20px 0 rgba(' +
       theme.hexToRgb(theme.palette.common.black) +
       ',.12), 0 7px 8px -5px rgba(' +
-      theme.hexToRgb(theme.palette.warning.main) +
+      theme.hexToRgb(theme.palette.orange.main) +
       ',.2)',
     '&:hover,&:focus': {
-      backgroundColor: theme.palette.warning.main,
+      backgroundColor: theme.palette.orange.main,
       boxShadow:
         '0 12px 20px -10px rgba(' +
-        theme.hexToRgb(theme.palette.warning.main) +
+        theme.hexToRgb(theme.palette.orange.main) +
         ',.28), 0 4px 20px 0 rgba(' +
         theme.hexToRgb(theme.palette.common.black) +
         ',.12), 0 7px 8px -5px rgba(' +
-        theme.hexToRgb(theme.palette.warning.main) +
+        theme.hexToRgb(theme.palette.orange.main) +
         ',.2)',
     },
   },
   red: {
-    backgroundColor: theme.palette.error.main,
+    backgroundColor: theme.palette.red.main,
     boxShadow:
       '0 12px 20px -10px rgba(' +
-      theme.hexToRgb(theme.palette.error.main) +
+      theme.hexToRgb(theme.palette.red.main) +
       ',.28), 0 4px 20px 0 rgba(' +
       theme.hexToRgb(theme.palette.common.black) +
       ',.12), 0 7px 8px -5px rgba(' +
-      theme.hexToRgb(theme.palette.error.main) +
+      theme.hexToRgb(theme.palette.red.main) +
       ',.2)',
     '&:hover,&:focus': {
-      backgroundColor: theme.palette.error.main,
+      backgroundColor: theme.palette.red.main,
       boxShadow:
         '0 12px 20px -10px rgba(' +
-        theme.hexToRgb(theme.palette.error.main) +
+        theme.hexToRgb(theme.palette.red.main) +
         ',.28), 0 4px 20px 0 rgba(' +
         theme.hexToRgb(theme.palette.common.black) +
         ',.12), 0 7px 8px -5px rgba(' +
-        theme.hexToRgb(theme.palette.error.main) +
+        theme.hexToRgb(theme.palette.red.main) +
         ',.2)',
     },
   },

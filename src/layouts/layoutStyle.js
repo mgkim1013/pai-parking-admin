@@ -1,4 +1,4 @@
-const nsLayoutStyle = theme => ({
+const nsLayoutStyle = (theme) => ({
   wrapper: {
     position: 'relative',
     top: '0',
@@ -19,9 +19,9 @@ const nsLayoutStyle = theme => ({
     color: theme.contentColor,
   },
   content: {
-    marginTop: '64px',
-    padding: theme.contentPadding,
-    minHeight: `calc(100vh - ${theme.headerHeight}px - ${theme.footerHeight}px)`,
+    marginTop: theme.headerHeight,
+    margin: theme.contentPadding,
+    minHeight: theme.contentMinHeight,
   },
 });
 

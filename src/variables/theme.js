@@ -3,46 +3,48 @@ import { grey } from '@material-ui/core/colors';
 
 const sidebarSpacing1 = '15px'; // left, right
 const sidebarSpacing2 = '10px'; // top, bottom
+const headerHeight = 64;
+const footerHeight = 50;
 
-const primaryColor = ['#9c27b0', '#ab47bc', '#8e24aa'];
-const secondaryColor = ['#e91e63', '#ec407a', '#d81b60'];
-const warningColor = ['#ff9800', '#ffa726', '#fb8c00'];
-const errorColor = ['#f44336', '#ef5350', '#e53935'];
-const infoColor = ['#00acc1', '#26c6da', '#00acc1'];
-const successColor = ['#4caf50', '#66bb6a', '#43a047'];
+const purple = ['#9c27b0', '#ab47bc', '#8e24aa'];
+const pink = ['#e91e63', '#ec407a', '#d81b60'];
+const orange = ['#ff9800', '#ffa726', '#fb8c00'];
+const red = ['#f44336', '#ef5350', '#e53935'];
+const blue = ['#00acc1', '#26c6da', '#00acc1'];
+const green = ['#4caf50', '#66bb6a', '#43a047'];
 
 const theme = createMuiTheme({
   // common
   palette: {
-    primary: {
-      main: primaryColor[0],
-      light: primaryColor[1],
-      dark: primaryColor[2],
+    purple: {
+      main: purple[0],
+      light: purple[1],
+      dark: purple[2],
     },
-    secondary: {
-      main: secondaryColor[0],
-      light: secondaryColor[1],
-      dark: secondaryColor[2],
+    pink: {
+      main: pink[0],
+      light: pink[1],
+      dark: pink[2],
     },
-    error: {
-      main: errorColor[0],
-      light: errorColor[1],
-      dark: errorColor[2],
+    orange: {
+      main: orange[0],
+      light: orange[1],
+      dark: orange[2],
     },
-    warning: {
-      main: warningColor[0],
-      light: warningColor[1],
-      dark: warningColor[2],
+    red: {
+      main: red[0],
+      light: red[1],
+      dark: red[2],
     },
-    info: {
-      main: infoColor[0],
-      light: infoColor[1],
-      dark: infoColor[2],
+    blue: {
+      main: blue[0],
+      light: blue[1],
+      dark: blue[2],
     },
-    success: {
-      main: successColor[0],
-      light: successColor[1],
-      dark: successColor[2],
+    green: {
+      main: green[0],
+      light: green[1],
+      dark: green[2],
     },
   },
   typography: {
@@ -58,7 +60,7 @@ const theme = createMuiTheme({
     },
     h3: {},
   },
-  hexToRgb: input => {
+  hexToRgb: (input) => {
     input = input + '';
     input = input.replace('#', '');
     let hexRegex = /[0-9A-Fa-f]/g;
@@ -100,15 +102,18 @@ const theme = createMuiTheme({
     fontSize: '14px',
   },
   // header
-  headerHeight: 64,
+  headerHeight: headerHeight,
   // footer
-  footerHeight: 50,
+  footerHeight: footerHeight,
   footerBorderTop: '1px solid ' + grey[300],
   footerFontSize: '12px',
   // content
   contentPadding: '0px 30px',
+  contentMinHeight: `calc(100vh - ${headerHeight}px - ${footerHeight}px)`,
   contentColor: '#3C4858',
   contentTransition: 'all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1)',
+  // videoReal
+  popoverMenuWidth: 120 * 3,
 });
 
 export default theme;

@@ -1,4 +1,4 @@
-import { Dashboard, Videocam, CameraRoll, LocalParking, SyncAlt, DriveEta, Tune, InsertChart } from '@material-ui/icons';
+import { Dashboard, Videocam, VideoLibrary, LocalParking, SyncAlt, DriveEta, Tune, InsertChart } from '@material-ui/icons';
 import {
   DashboardView,
   VideoRealView,
@@ -26,7 +26,7 @@ const routes = [
   {
     path: '/videoHist',
     name: '영상 기록 모니터링',
-    icon: CameraRoll,
+    icon: VideoLibrary,
     component: VideoHistView,
   },
   {

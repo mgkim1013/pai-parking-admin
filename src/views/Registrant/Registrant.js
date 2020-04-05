@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Registrant = () => {
-  return 'hello';
+  return <div>hello</div>;
 };
 
 export default Registrant;

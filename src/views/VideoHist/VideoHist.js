@@ -1,7 +1,7 @@
 import React from 'react';
 
 const VideoHist = () => {
-  return 'hello';
+  return <div>hello</div>;
 };
 
 export default VideoHist;

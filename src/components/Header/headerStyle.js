@@ -1,4 +1,4 @@
-const headerStyle = theme => ({
+const headerStyle = (theme) => ({
   appBar: {
     backgroundColor: 'transparent',
     boxShadow: 'none',
@@ -10,6 +10,13 @@ const headerStyle = theme => ({
     display: 'inline-flex',
     justifyContent: 'space-between',
     padding: 0,
+  },
+  titleWrapper: {
+    display: 'inline-flex',
+    alignItems: 'center',
+  },
+  viewChangePopover: {
+    marginLeft: theme.spacing(2),
   },
 });
 

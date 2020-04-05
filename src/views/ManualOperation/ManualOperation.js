@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ManualOperation = () => {
-  return 'hello';
+  return <div>hello</div>;
 };
 
 export default ManualOperation;
